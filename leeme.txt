@@ -1,0 +1,20 @@
+leeme mucho
+https://www.youtube.com/watch?v=xRXHQlqA3Ak&list=PL_WGMLcL4jzX3SJvQQwLDDpALExKJY5bY
+1. npm init --y para iniciar un proyecto en node
+Instalando dependencias
+2. npm i express --save instalar el framework express
+3. npm i cors para evitar problemas de cors
+4. npm i dotenv para variables de entorno
+5. npm i multer para la carga de archivos y su manipulacion
+6. npm i nodemon -D para que la wea corra cada vez que se actualiza algo
+7. Agregar al package.json en la parte de scripts, dev: "nodemon app.js" app.js archivo de inicio
+8. se podria ya ejecutar el git init pero antes crear el archivo gitignore
+9. npm i express-validator -S para validar los datos que envia el usuario/frontend
+
+en este proyecto las vistas se conocen como routes (rutas) ya que es una api rest
+en el directorio utils (tambien conocido como helpers) van a ir algunas funciones que son repetitivas
+en el caso de necesitar mongo DB ejecutar npm i mongoose -S
+
+middleware -> entre la ruta (routes) y el controllador (controllers)/para validar?
+
+min 2:52:58
