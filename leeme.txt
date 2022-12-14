@@ -1,5 +1,6 @@
-leeme mucho
-https://www.youtube.com/watch?v=xRXHQlqA3Ak&list=PL_WGMLcL4jzX3SJvQQwLDDpALExKJY5bY
+Leeme mucho
+Video guía: https://www.youtube.com/watch?v=xRXHQlqA3Ak&list=PL_WGMLcL4jzX3SJvQQwLDDpALExKJY5bY
+
 1. npm init --y para iniciar un proyecto en node
 Instalando dependencias
 2. npm i express --save instalar el framework express
@@ -11,10 +12,12 @@ Instalando dependencias
 8. se podria ya ejecutar el git init pero antes crear el archivo gitignore
 9. npm i express-validator -S para validar los datos que envia el usuario/frontend
 
-en este proyecto las vistas se conocen como routes (rutas) ya que es una api rest
-en el directorio utils (tambien conocido como helpers) van a ir algunas funciones que son repetitivas
-en el caso de necesitar mongo DB ejecutar npm i mongoose -S
+
+En este proyecto las vistas se conocen como routes (rutas) ya que es una api rest
+En el directorio utils (tambien conocido como helpers) van a ir algunas funciones que son repetitivas
+En el caso de necesitar mongo DB ejecutar npm i mongoose -S
+(Opcional) npm i mongoose-delete -S para borrado lógico en mongoDB
 
 middleware -> entre la ruta (routes) y el controllador (controllers)/para validar?
 
-min 2:52:58
+min 3:32:47
