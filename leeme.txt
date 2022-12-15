@@ -11,7 +11,9 @@ Instalando dependencias
 7. Agregar al package.json en la parte de scripts, dev: "nodemon app.js" app.js archivo de inicio
 8. se podria ya ejecutar el git init pero antes crear el archivo gitignore
 9. npm i express-validator -S para validar los datos que envia el usuario/frontend
-
+Dos librerias para JWT
+10. npm i jsonwebtoken -S para todo lo que tiene que ver con jwt
+11. npm i bcryptjs -S para encriptar en la base de datos? existe otro paquete que es bcrypt
 
 En este proyecto las vistas se conocen como routes (rutas) ya que es una api rest
 En el directorio utils (tambien conocido como helpers) van a ir algunas funciones que son repetitivas
@@ -20,4 +22,4 @@ En el caso de necesitar mongo DB ejecutar npm i mongoose -S
 
 middleware -> entre la ruta (routes) y el controllador (controllers)/para validar?
 
-min 3:32:47
+min 4:11:41
