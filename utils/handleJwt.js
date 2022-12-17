@@ -26,4 +26,4 @@ const verifyToken = async (tokenJwt) => {
     }
 };
 
-module.exports = { tokenSing, verifyToken };
+module.exports = { tokenSign, verifyToken };
