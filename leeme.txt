@@ -22,4 +22,4 @@ En el caso de necesitar mongo DB ejecutar npm i mongoose -S
 
 middleware -> entre la ruta (routes) y el controllador (controllers)/para validar?
 
-min 4:11:41
+min 4
