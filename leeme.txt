@@ -14,6 +14,9 @@ Instalando dependencias
 Dos librerias para JWT
 10. npm i jsonwebtoken -S para todo lo que tiene que ver con jwt
 11. npm i bcryptjs -S para encriptar en la base de datos? existe otro paquete que es bcrypt
+//MySQL
+12. npm i sequelize -S dependencia ORM de base de datos, para configurar una conexion a una base de datos, en este caso MySQL
+13. npm i mysql2 -S necesaria para poder hacer la conexion, (sequelize es solo para configurar o administrar la conexion de mejor manera, tambien la estructura de los datos-tablas)
 
 En este proyecto las vistas se conocen como routes (rutas) ya que es una api rest
 En el directorio utils (tambien conocido como helpers) van a ir algunas funciones que son repetitivas
