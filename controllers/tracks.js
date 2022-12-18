@@ -4,7 +4,8 @@ const { handleHttpError } = require("../utils/handleError");
 
 const getItems = async (req, res) => {
   try {
-    const data = await tracksModel.find({});
+    // const data = await tracksModel.find({});//mongoose
+    const data = await tracksModel.findAllData({});
     res.send({ data });
   } catch (e) {
     handleHttpError(res, "error en el get pe");
@@ -15,7 +16,8 @@ const getItem = async (req, res) => {
   try {
     req = matchedData(req); //filtra/sanitiza el 'request'
     const { id } = req;
-    const data = await tracksModel.findById(id);
+    // const data = await tracksModel.findById(id);//mongoose
+    const data = await tracksModel.findOneData(id);
     res.send({ data });
   } catch (error) {
     handleHttpError(res, "error al getear el item");

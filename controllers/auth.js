@@ -27,8 +27,8 @@ const loginController = async (req, res) => {
   try {
     req = matchedData(req);
     //buscar en la base de datos al usuario
-    const user = await usersModel.findOne({email:req.email})
-        .select('password email name role');//el select filtra que datos va a traer si los encuentra
+    const user = await usersModel.findOne({email:req.email});
+        ///.select('password email name role');//el select (funciona en mongoose) filtra que datos va a traer si los encuentra
     //si no existe lo informa
     if (!user){
         handleHttpError(res, "USER_NOT_EXISTS", 404);
