@@ -24,5 +24,3 @@ En el caso de necesitar mongo DB ejecutar npm i mongoose -S
 (Opcional) npm i mongoose-delete -S para borrado lógico en mongoDB
 
 middleware -> entre la ruta (routes) y el controllador (controllers)/para validar?
-
-min FIN
